@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: peachpuff;
+  height: 100vh;
+  width: 100%;
+  color: palevioletred;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.quote__container {
+  width: 50%;
+  border: 3px palevioletred solid;
+  border-radius: 3px;
+  padding: 1em;
+}
+
+.quote__container_secondary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.quote__container_author {
+  text-transform: uppercase;
+  /* font-size: 1.5em; */
+}
+
+.quote__container_button {
+  font-size: 1em;
+  border-radius: 3px;
+  padding: 0.5rem 0;
+  margin: 0.5rem 1rem;
+  width: 11rem;
+  background: transparent;
+  color: palevioletred;
+  border: 2px solid palevioletred;
+  cursor: pointer;
+}
