@@ -18,12 +18,12 @@ const modalStyles = {
 class App extends Component {
   state = {
     modalIsOpen: true
-  }
+  };
   closeModal = () => {
     this.setState(() =>({
       modalIsOpen: false
     }))
-  }
+  };
   render() {
     return (
       <div className="App">
@@ -37,7 +37,7 @@ class App extends Component {
         </Modal>
       </div>
     );
-  }
-}
+  };
+};
 
 export default App;
