@@ -27,7 +27,6 @@
 
 .quote__container_author {
   text-transform: uppercase;
-  /* font-size: 1.5em; */
 }
 
 .quote__container_button {
@@ -40,4 +39,10 @@
   color: palevioletred;
   border: 2px solid palevioletred;
   cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .quote__container {
+    width: 80%;
+  }
 }
