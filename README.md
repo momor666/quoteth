@@ -7,7 +7,7 @@
 
 # Usable At
 
-* https://msweeneydev.com/quoteth
+https://msweeneydev.com/quoteth
 
 # Instructions
 
