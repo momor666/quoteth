@@ -7,8 +7,8 @@
 
 # Usable At
 
-https://msweeneydev.com/quoteth
+* https://msweeneydev.com/quoteth
 
 # Instructions
 
-Click the button to get a quote, simple!
+* Click the button to get a quote, simple!
